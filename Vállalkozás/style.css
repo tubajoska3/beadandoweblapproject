@@ -12,8 +12,8 @@ h1{
 }
 main h2{    
     margin-top: 10px;    
-    color: #416618;
-    border-left: 3px dotted #416618;
+    color: #894f3b;
+    border-left: 3px dotted #894f3b;
     font-variant-caps: small-caps;
     padding: 5px 15px;
 }
@@ -26,6 +26,13 @@ h3{
     text-align: center;
     letter-spacing: 1px;
     font-size: 130%;
+}
+h2 a {
+    text-decoration: none;
+    color: #894f3b;
+}
+h2 a:hover {
+    color: #894f3b;
 }
 li{
     list-style-image: url(../img/lemon2.png);
@@ -52,8 +59,18 @@ thead>tr:first-child{
     justify-content: center;
     align-items: center;
 }
+#airforce .flexbox {
+    background-image: url('img/airforce_background.jpg');
+}
+#dunk .flexbox {
+    background-image: url('img/dunk_background.jpg');
+}
 .tartalom {
-    max-width: 35%;
+    max-width: 40%;
+    color: white;
+    background-color: rgba(0, 0, 0, .35);
+    padding: 1.3rem;
+    border-radius: 10px;
 }
 .tartalom h2 {
     text-align: center;
@@ -61,4 +78,39 @@ thead>tr:first-child{
 }
 .tartalom p {
     font-size: 1.1rem;
+}
+.vasarlas .ar .button_ar {
+    background: none;
+    outline: none;
+    border: none;
+}
+.vasarlas .logo .button_logo {
+    color: black;
+    padding: 0px;
+    height: 100%;
+}
+.vasarlas .ar .button_ar a {
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+}
+.vasarlas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.material-symbols-outlined {
+    max-height: 100%;
+}
+.collapse.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapse.navbar-collapse .shopping_cart .button_logo  {
+    color: black;
+    padding: 0px;
+}
+.row {
+    margin-top: 50px;
 }
