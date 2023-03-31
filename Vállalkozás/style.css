@@ -1,6 +1,9 @@
 a {
-    text-transform: uppercase;
     padding: 20px;
+}
+.navbar {
+    background-color: white;
+    font-weight: bold;
 }
 h1{
     font-family: Verdana;
@@ -19,6 +22,7 @@ main h2{
 }
 p {
     text-align: justify;
+    text-indent: 15px;
 }
 h3{    
     font-weight: bold;
@@ -35,7 +39,6 @@ h2 a:hover {
     color: #894f3b;
 }
 li{
-    list-style-image: url(../img/lemon2.png);
     margin-left: 40px;
     float: left;
 }
@@ -50,7 +53,7 @@ thead>tr:first-child{
     text-transform: uppercase;
 }
 .flexbox {
-    background: url('https://wallpapercave.com/wp/wp1896400.jpg');
+    background: url('img/airforce_background.jpg');
     min-height: 65vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +66,7 @@ thead>tr:first-child{
     background-image: url('img/airforce_background.jpg');
 }
 #dunk .flexbox {
-    background-image: url('img/dunk_background.jpg');
+    background-image: url('img/airforce_background.jpg');
 }
 .tartalom {
     max-width: 40%;
@@ -71,13 +74,16 @@ thead>tr:first-child{
     background-color: rgba(0, 0, 0, .35);
     padding: 1.3rem;
     border-radius: 10px;
+    font-family: Verdana;
 }
 .tartalom h2 {
     text-align: center;
     font-size: 2rem;
+    font-weight: bold;
+    color: #894f3b;
 }
 .tartalom p {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .vasarlas .ar .button_ar {
     background: none;
@@ -113,4 +119,79 @@ thead>tr:first-child{
 }
 .row {
     margin-top: 50px;
+}
+.shopping-cart a {
+    color: black;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+.shopping-cart span {
+    height: 100%;
+    display: block;
+}
+.shopping-cart button {
+    padding: 0px;
+    outline: none;
+    margin: 0px;
+    border: none;
+    background: none;
+}
+.data-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    background-color: yellow;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(228, 228, 228, 0);
+}
+.data-section-al {
+    padding: 5px;
+    min-width: 50%;
+}
+#data-page {
+    background-color: rgba(228, 228, 228, 0.6);
+}
+.sorvegeig {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 11px;
+}
+.flllex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin-right: 0px;
+}
+.flllex >* {
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+input[type="button"] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: .6s ease-in-out;
+}
+input[type="button"]:hover {
+    color: black;
+    background-color: rgba(131, 131, 131, 0.9);
 }
