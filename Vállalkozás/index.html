@@ -13,17 +13,17 @@
 
 <body>
     <nav class="container-fluid navbar navbar-expand-lg navbar-light">      
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="burger" onclick="toggleMenu()" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav"            id="menu">
             <a class="nav-link" href="index.html">Főoldal</a>
             <a class="nav-link" href="index.html#main">Sneakerek</a>
             <a class="nav-link" href="index.html#kulonleges">Kiegészítők</a>
-            <a class="nav-link" href="https://balazskicks.com/" target="_blank">További sneakerek</a>        
+            <a class="nav-link" href="https://hu.wikipedia.org/wiki/Citrusform%C3%A1k" target="_blank">További informácók</a>        
           </div>
-          <div class="shopping_cart"><a href="page.html" class="button_logo"><span class="material-symbols-outlined">
+          <div class="shopping_cart"><a href="" class="button_logo"><span class="material-symbols-outlined">
             shopping_cart_checkout
             </span></a></div>
         </div>
@@ -38,7 +38,7 @@
         <main class="container" id="main">
         <article class="row">
             <div class="col-12">
-                <h2 id="leggyakoribb"><a href="dunk.html">Dunk</a></h2>
+                <h2 class="leggyakoribb"><a href="dunk.html">Dunk</a></h2>
             </div>
 
             <div class="col-sm-6 col-lg-4">
@@ -113,7 +113,7 @@
         </article>
         <article class="row">
             <div class="col-12">
-                <h2 id="leggyakoribb"><a href="jordan.html">Jordan</a></h2>
+                <h2 class="leggyakoribb"><a href="jordan.html">Jordan</a></h2>
             </div>
 
             <div class="col-sm-6 col-lg-4">
@@ -185,7 +185,7 @@
         </article>
         <article class="row">
             <div class="col-12">
-                <h2 id="leggyakoribb"><a href="airforce.html">Air Force</a></h2>
+                <h2 class="leggyakoribb"><a href="airforce.html">Air Force</a></h2>
             </div>
 
             <div class="col-sm-6 col-lg-4">
@@ -257,71 +257,52 @@
         </article>
         <article class="row mb-5">
             <div class="col-12">
-                <h2 id="kulonleges">Különleges citrusok</h2>
+                <h2 id="kulonleges">Különleges cipők</h2>
                 <ul>
-                <li>Királynarancs</li>
-                <li>Curacao</li>
-                <li>Kumquat</li>
-                <li>Tangelo</li>
-                <li>Satsuma</li>
-                <li>Buddha keze citrom</li>
-                <li>Klementin</li>
-                <li>Gyémánt cédra</li>
-                <li>Pursha</li>
-                <li>Bergamott</li>
+                <li>Travis Scott x Fragment</li>
+                <li>TRAVIS SCOTT</li>
+                <li>Black Phantom</li>
+                <li>NIKE AIR FORCE 1 LOW LOUIS VUITTON(blue)</li>
+                <li>NIKE AIR FORCE 1 LOW LOUIS VUITTON(green)</li>
+                <li>NIKE AIR FORCE 1 LOW LOUIS VUITTON(black)</li>
+                <li>NIKE SB DUNK LOW OG EBAY</li>
                 </ul>                           
             </div>
         </article>
+            <table class="d-none d-md-table table table-striped">
+                <thead>
+                    <tr class="bg-light">
+                        <th colspan="5">Nikeval szerződőtt ügyfelek</th>
+                    </tr>
+                    <tr>
+                        <th>Travis Scott</th>
+                        <th>Drake</th>
+                        <th>Michael Jordan</th>
+                        <th>Billie Eilish</th>
+                        <th>LeBron James</th>
+                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-light">
+                        <td>Keresetük</td>
+                        <td>Keresetük</td>
+                        <td>Keresetük</td>
+                        <td>Keresetük</td>
+                        <td>Keresetük</td>
+                    </tr>
+                    <tr>
+                        <td>Évi 3-4Mrd</td>
+                        <td>Évi 1-2 Mrd</td>
+                        <td>Évi 8-10 Mrd</td>
+                        <td>Évi 1 Mrd</td>
+                        <td>Évi 2-3 Mrd</td>
+                </tbody>
+            </table>
     </main>    
     <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>    
-    <td>
-        <table border="1">
-            
-            <tr><td></td></tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-
-                    </ul>
-                </td>
-
-
-
-
-
-
-
-            </tr>
-        </table>
-
-    </td>
-</tr>
-</table>
-
-
-<table border="1">
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td> </td>
-</tr>
-<tr>
-    <td></td>
-    <td> </td>
-</tr>
-<tr>
-    <td></td>
-    <td> </td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
